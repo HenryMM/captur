@@ -1,0 +1,104 @@
+
+.owl-carousel .item img {
+    width: 100%;
+}
+
+
+#carousel-canton{
+    margin-bottom: -9px;
+}
+/* cambiamos la posisicion y los estilos de los botones de navegacion */
+
+#carousel-canton .owl-prev, #carousel-canton .owl-next {
+    position: absolute;
+    font-size: 20px;
+    border-radius: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+   bottom: 0px;
+}
+
+
+#carousel-index .owl-prev, #carousel-index .owl-next {
+    position: absolute;
+    font-size: 20px;
+    border-radius: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    bottom: 0px;
+
+    
+}
+
+
+.owl-carousel .owl-prev {
+    left: 0px;
+}
+
+.owl-carousel .owl-next {
+    right: 0px;
+}
+
+/*cambiamos la posicion de los dots del carousel*/
+.owl-carousel .owl-dots {
+    position: absolute;
+    top: 0px;
+
+}
+
+.owl-carousel .title-carousel {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 1;
+    bottom: -10px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+
+#menu-canton{
+    position: inherit;
+    padding-top: 110px;
+    text-align: center;
+}
+
+#menu-canton  img{
+    width: 100px;
+}
+
+#menu-canton h2{
+    font-size: 20px;
+    color: white;
+}
+
+
+@media screen and (max-width: 1300px){
+    #menu-canton{
+        padding-top: 110px;
+    }
+    #menu-canton  img{
+        width: 60px;
+    }
+
+    #menu-canton h2{
+        font-size: 13px;
+    }
+
+}
+
+
+@media screen and (max-width: 991px){
+    #menu-canton{
+        padding-top: 10px;
+    }
+
+    .owl-carousel .title-carousel {
+       font-size: 14px;
+    }
+
+}

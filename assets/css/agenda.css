@@ -1,0 +1,23 @@
+#agenda-cultural .item {
+    margin: 0 5px;
+    -webkit-box-shadow: 7px 9px 5px -2px #1B5E20;
+    -moz-box-shadow: 7px 9px 5px -2px #1B5E20;
+    box-shadow: 7px 9px 5px -2px #1B5E20;
+    margin-bottom: 10px;
+   border-radius: 1em;
+    
+    
+}
+
+#agenda-cultural .item .timee {
+    color: white;
+    background-color: #2E7D32;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    padding-top: 20px;;
+    font-family: 'Lato', sans-serif;
+}
+
+

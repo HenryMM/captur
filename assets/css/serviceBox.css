@@ -1,0 +1,233 @@
+.serviceBox {
+    text-align: center;
+    margin: 0 -15px;
+    background: #2E7D32;
+}
+
+.serviceBox img {
+    width: 100%;
+    height: auto;
+
+}
+
+.serviceBox .service-content {
+    position: relative;
+    background: #2E7D32;
+    color: #fff;
+    padding: 50px 30px 30px;
+    min-height: 320px;
+}
+
+.serviceBox .service-icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(-45deg);
+}
+
+.serviceBox .service-icon i {
+    font-size: 30px;
+    line-height: 70px;
+    color: #E53935;
+    transform: rotate(-45deg);
+}
+
+.serviceBox .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.serviceBox .description {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.serviceBox .read-more {
+    display: inline-block;
+    padding: 7px 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background: #F50057;
+    text-transform: capitalize;
+    transition: all 0.5s ease 0s;
+}
+
+.serviceBox .read-more:hover {
+    color: #0099cc;
+    background: #fff;
+    text-decoration: none;
+}
+
+.serviceBox.middle .service-content {
+    padding: 30px 30px 50px;
+}
+
+.serviceBox.middle .service-icon {
+    bottom: -35px;
+    top: auto;
+}
+
+@media only screen and (max-width: 990px) {
+    .serviceBox .title {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .serviceBox {
+        margin: 0 0 30px 0;
+    }
+}
+
+.testimonial {
+    border-left: 5px solid #0D47A1;
+    padding: 100px 0 100px 275px;
+    position: relative
+}
+
+.testimonial:before,
+.testimonial:after {
+    content: "";
+    width: 320px;
+    height: 55px;
+    border-right: 5px solid #0D47A1;
+    position: absolute;
+    left: 0;
+}
+
+.testimonial:before {
+    border-top: 5px solid #0D47A1;
+    top: 0;
+}
+
+.testimonial:after {
+    border-bottom: 4px solid #0D47A1;
+    bottom: 0;
+}
+
+.testimonial .pic {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+.testimonial .pic img {
+    width: 100%;
+    height: auto;
+    -webkit-box-shadow: 6px 7px 5px 0px rgba(255, 45, 22, 1);
+    -moz-box-shadow: 6px 7px 5px 0px rgba(255, 45, 22, 1);
+    box-shadow: 6px 7px 5px 0px rgba(255, 45, 22, 1);
+}
+
+.testimonial .description {
+    font-size: 14px;
+    color: #7a7e82;
+    line-height: 27px;
+    position: relative;
+}
+
+.testimonial .testimonial-title {
+    font-size: 22px;
+    font-weight: 800;
+    color: #22272c;
+    text-transform: capitalize;
+}
+
+.testimonial .post {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #0099cc;
+    margin-top: 10px;
+}
+
+.owl-theme .owl-controls {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    background: #0099cc;
+    border-radius: 0;
+    opacity: 1;
+    padding: 5px 10px;
+}
+
+.owl-prev:before,
+.owl-next:before {
+    content: "\f053";
+    font-family: 'FontAwesome';
+    color: #fff;
+}
+
+.owl-next:before {
+    content: "\f054";
+}
+
+@media only screen and (max-width: 1999px) {
+    .serviceBox .service-content {
+        min-height: 350px;
+    }
+}
+
+
+
+@media only screen and (max-width: 990px) {
+    .serviceBox .service-content {
+        min-height: 450px;
+    }
+    .testimonial {
+        padding: 80px 19px 80px 265px;
+    }
+}
+
+
+@media only screen and (max-width: 771px) {
+    .serviceBox .service-content {
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .testimonial {
+        padding: 10px;
+        border: none;
+    }
+
+    .testimonial:before,
+    .testimonial:after {
+        border: none;
+
+    }
+
+    .testimonial .pic {
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 40px;
+    }
+
+    .testimonial .description {
+        margin-top: 15px;
+
+    }
+
+    .testimonial .description:before {
+        content: "";
+    }
+}

@@ -1,0 +1,213 @@
+#alojamiento .row > [class*='col-'] {
+    padding-bottom: 15px;
+}
+
+#alojamiento .row > [class*='col-'] img {
+    border-radius: 50%;
+}
+
+#alojamiento .row > [class*='col-'] .btn {
+    background-color: #fbfbfb;
+    border-radius: 3em;
+    padding: 10px 15px;
+    color: #757575;
+}
+
+#alojamiento .row > [class*='col-'] .btn:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#gastronomia .row > [class*='col-'] {
+    padding-bottom: 15px;
+}
+
+#gastronomia .row > [class*='col-'] img {
+    border-radius: 50%;
+}
+
+#gastronomia .row > [class*='col-'] .btn {
+    background-color: #fff;
+    border-radius: 3em;
+    padding: 10px 15px;
+    color: #757575;
+}
+
+#gastronomia .row > [class*='col-'] .btn:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#turisticos .row > [class*='col-'] {
+    padding-bottom: 15px;
+}
+
+#turisticos .row > [class*='col-'] img {
+    border-radius: 50%;
+}
+
+#turisticos .row > [class*='col-'] .btn {
+    background-color: #fbfbfb;
+    border-radius: 3em;
+    padding: 10px 15px;
+    color: #757575;
+}
+
+#turisticos .row > [class*='col-'] .btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#mapa {
+    height: 450px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#fixed-menu {
+    width: 0px;
+    background-color: #E53935;
+    position: fixed;
+    z-index: 9;
+    top: 50%;
+    transform: translateY(-50%);
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 2em;
+
+}
+
+#fixed-menu.open {
+    width: auto;
+}
+
+#fixed-menu ul {
+
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+#fixed-menu ul li {
+    margin-bottom: 10px;
+    display: block;
+}
+
+#fixed-menu ul li a {
+    padding: 6px;
+
+}
+
+#fixed-menu ul li a img {
+    width: 0px;
+}
+
+#fixed-menu.open ul li a img {
+    width: 35px;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+}
+
+#text-canton:after {
+    content: "";
+    border-left: 40px solid rgba(251, 251, 251, 0);
+    border-right: 40px solid rgba(255, 0, 0, 0);
+    border-bottom: 30px solid #A5D6A7;
+    position: absolute;
+    top: -30px;
+    left: 50px;
+}
+
+#alojamiento {
+    background-color: #F5F5F5;
+    border-radius: 4em;
+    padding: 15px;
+    position: relative;
+    color: #616161;
+    -webkit-box-shadow: 2px 11px 5px 0px rgba(171, 171, 171, 1);
+    -moz-box-shadow: 2px 11px 5px 0px rgba(171, 171, 171, 1);
+    box-shadow: 2px 11px 5px 0px rgba(171, 171, 171, 1);
+}
+
+#alojamiento:after {
+    content: "";
+    border-left: 40px solid rgba(251, 251, 251, 0);
+    border-right: 40px solid rgba(255, 0, 0, 0);
+    border-bottom: 30px solid #e0e0e0;
+    position: absolute;
+    top: -30px;
+    right: 70px;
+}
+
+#gastronomia {
+    background-color: #F5F5F5;
+    border-radius: 4em;
+    padding: 15px;
+    position: relative;
+    color: #616161;
+    -webkit-box-shadow: 2px 11px 5px 0px rgba(171, 171, 171, 1);
+    -moz-box-shadow: 2px 11px 5px 0px rgba(171, 171, 171, 1);
+    box-shadow: 2px 11px 5px 0px rgba(171, 171, 171, 1);
+}
+
+#turisticos {
+    background-color: #F5F5F5;
+    border-radius: 4em;
+    padding: 15px;
+    position: relative;
+    color: #616161;
+    -webkit-box-shadow: 2px 11px 5px 0px rgba(171, 171, 171, 1);
+    -moz-box-shadow: 2px 11px 5px 0px rgba(171, 171, 171, 1);
+    box-shadow: 2px 11px 5px 0px rgba(171, 171, 171, 1);
+}
+
+#turisticos:after {
+    content: "";
+    border-left: 40px solid rgba(251, 251, 251, 0);
+    border-right: 40px solid rgba(255, 0, 0, 0);
+    border-bottom: 30px solid #e0e0e0;
+    position: absolute;
+    top: -30px;
+    right: 70px;
+}
+
+#gastronomia:after {
+    content: "";
+    border-left: 40px solid rgba(251, 251, 251, 0);
+    border-right: 40px solid rgba(255, 0, 0, 0);
+    border-bottom: 30px solid #e0e0e0;
+    position: absolute;
+    top: -30px;
+    left: 70px;
+}
+
+@media screen and (max-width: 991px) {
+    #fixed-menu {
+        bottom: 0;
+        width: 0px;
+        background-color:#E53935;
+        position: fixed;
+        z-index: 9;
+        top: auto;
+        transform: translateY(0%);
+        border-bottom-right-radius: 0em;
+        border-top-right-radius: 0em;
+        text-align: center;
+    }
+
+    #fixed-menu.open {
+        width: 100%;
+    }
+
+    #fixed-menu ul li {
+        display: inline-block;
+        margin-bottom: 3px;
+    }
+
+}
+
+
+
+
